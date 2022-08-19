@@ -37,13 +37,11 @@ def tempgenemail(domain_json , co):
             answer = input("\033[94mWant To Fetch Email ? Y/N : \033[0m")
             if answer.lower() == "y":
                 os.system("cls")
-                msg = fetchmessage(json.loads(token_json)["token"], data["service"])
-                if msg == "None Email Found":
+                id = fetchmessage(json.loads(token_json)["token"], data["service"])
+                if id == "None Email Found":
                     print(f"{Fore.RED}[!]None Email Found {Style.RESET_ALL}")
                     break
-                answer = input("\033[94mDo U Want To Fetch Full Msg Y/N :\033[0m")
-                if answer.lower() == "y":
-                    id =  input("\033[94mPlease Give Msg Id :\033[0m")
+                else:
                     getfullmsg(id , json.loads(token_json)["token"] , data["service"])
             else:
                 exit(0)

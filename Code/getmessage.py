@@ -10,8 +10,7 @@ def fetchmessage(token , service):
     count = 0
     if json.loads(R.text)["hydra:member"] == []:
         return "None Email Found"
-    for i in json.loads(R.text)["hydra:member"]:
-         count += 1
-         id = json.loads(R.text)["hydra:member"][count - 1]["id"]
-         print(f"{count}. {id}")
+    else:
+     id = json.loads(R.text)["hydra:member"][0]["id"]
+     return id
 #---------------------------------------------------------------
