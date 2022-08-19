@@ -10,7 +10,7 @@
 ### ➡️ IF Use For Discord It Autometically Open Verification Link in Default Browser
 
 ##  First Look
-![Help]()
+![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/front.png)
 
 ## Used Packages
  • [Python Requests](https://github.com/psf/requests)
