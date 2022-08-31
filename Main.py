@@ -1,4 +1,6 @@
 import os
+import sys 
+sys.dont_write_bytecode = True
 #-----------------------------------------------------
 from Code.Domains import getdomains
 from Runner import tempgenemail
