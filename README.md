@@ -15,7 +15,7 @@
 ## Used Packages
  • [Python Requests](https://github.com/psf/requests)
  
- • [Web Browser](https://docs.python.org/3/library/webbrowser.html)
+ • [BRAIN]()
  
 ## 📝 To-Do
 
