@@ -1,7 +1,4 @@
-import re
-import os
 import json
-import webbrowser
 #--------------------------------------------------------
 def fixjson(badjson):
     s = badjson
