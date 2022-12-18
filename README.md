@@ -12,7 +12,8 @@
  Email Are Fetched From [Mail.tm](https://mail.tm/en/) And [Mail.gw](https://mail.gw/en/)
 
 ##  Main Layout
-![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/EmailLayout.png)
+![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/MainLayout.png)
+## Email Layout
 ![Email](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/EmailLayout.png)
 
 ## Packages
