@@ -1,8 +1,6 @@
-import string
-import random
-import requests
-#---------------------------------------------------------------
-def randomamil(domain, service):
+import string , random , requests
+
+def CreateMail(domain, service):
     to_create = "".join([random.choice(string.ascii_letters)for i in range(10)]) + '@' + domain
     mail_pass = "".join([random.choice(string.digits) for i in range(5)])
     R = requests.post(f"https://api.mail.{service}/accounts", headers={
@@ -21,4 +19,3 @@ def randomamil(domain, service):
             ],
             "service" : service
         }
-#---------------------------------------------------------------

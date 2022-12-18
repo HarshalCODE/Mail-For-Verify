@@ -1,32 +1,41 @@
 
-<h1 align="center">
+<h2 align="center">
   <br>
-   A FREE API VERSION FOR CREATING MAIL FOR VERIFICATION  WEBSITE 📧
+   A Free Tool To Create A Temp Mail And Use Them For Bypassing WebSite Verifications  
+  </br>
   <br>
-</h1>
+  ⭐ Feel Free To Fork And Star The Repo .
+  </br>
+</h2>
 
-## ⭐ Feel Free To Fork And Star The Repo .
-### ➡️ Email Are Fetched From [Mail.tm](https://mail.tm/en/) And [Mail.gw](https://mail.gw/en/)
-### ➡️ IF Use For Discord It Autometically Open Verification Link in Default Browser
 
-##  First Look
-![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/front.png)
+ Email Are Fetched From [Mail.tm](https://mail.tm/en/) And [Mail.gw](https://mail.gw/en/)
 
-## Used Packages
+##  Main Layout
+![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/EmailLayout.png)
+![Email](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/EmailLayout.png)
+
+## Packages
  • [Python Requests](https://github.com/psf/requests)
- 
- • [BRAIN]()
+  
+ • [Colorama](https://github.com/tartley/colorama)
  
 ## 📝 To-Do
 
 It will only be updated for the following things:
 
   * Creating Of Your Own Name Adress
-  * Delete Email Feature
   * Code optimisation
 
-## Steps To Setup
- 1. Clone The Repo using `git clone `.
- 2. Run Command `pip install -m requirements.txt`
- 3. To Start `python Main.py`.
- 4. Just Click Batch File To Start
+## Steps To Setup 
+Follow This Simple Step Or Just Click [Batch File](https://github.com/HarshalCODE/Mail-For-Verify/blob/main/start.bat) , If U Face An Error Try Running 3 Command.
+```git
+git clone  https://github.com/HarshalCODE/Mail-For-Verify.git
+```
+```git
+pip install -m requirements.txt
+```
+```git
+python3 Main.py
+```
+ 
