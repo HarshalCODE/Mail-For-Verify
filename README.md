@@ -11,10 +11,8 @@
 
  Email Are Fetched From [Mail.tm](https://mail.tm/en/) And [Mail.gw](https://mail.gw/en/)
 
-##  Main Layout
+
 ![Help](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/MainLayout.png)
-## Email Layout
-![Email](https://github.com/HarshalCODE/Mail-Gen/blob/main/github/EmailLayout.png)
 
 ## Packages
  • [Python Requests](https://github.com/psf/requests)
@@ -29,7 +27,7 @@ It will only be updated for the following things:
   * Code optimisation
 
 ## Steps To Setup 
-Follow This Simple Step Or Just Click [Batch File](https://github.com/HarshalCODE/Mail-For-Verify/blob/main/start.bat) , If U Face An Error Try Running 3 Command.
+Follow This Simple Step Or Just Click [Batch File](https://github.com/HarshalCODE/Mail-For-Verify/blob/main/start.bat) , If U Face An Error Try Running 2 Command.
 ```git
 git clone  https://github.com/HarshalCODE/Mail-For-Verify.git
 ```
